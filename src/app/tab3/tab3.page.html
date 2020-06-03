@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Desenho
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list lines="full">
+    <ion-item routerLink="/simpsons">
+      <ion-thumbnail slot="start">
+        <img
+          src="assets/simpsons.jpg">
+      </ion-thumbnail>
+      <ion-label>
+        Os Simpsons
+      </ion-label>
+      
+      <div slot="end" class="c100 p75 small green">
+        <span>75%</span>
+        <div class="slice">
+          <div class="bar"></div>
+          <div class="fill"></div>
+        </div>
+      </div>
+    </ion-item>
+
+    <ion-item routerLink="/futurama">
+        <ion-thumbnail slot="start">
+          <img
+            src="assets/futurama.jpg">
+        </ion-thumbnail>
+        <ion-label>
+          Futurama
+        </ion-label>
+        
+        <div slot="end" class="c100 p65 small green">
+          <span>82%</span>
+          <div class="slice">
+            <div class="bar"></div>
+            <div class="fill"></div>
+          </div>
+        </div>
+  
+      </ion-item>
+
+  </ion-list>
+</ion-content>

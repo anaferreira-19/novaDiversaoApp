@@ -1,0 +1,7 @@
+{
+  "name": "novaDiversaoApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
